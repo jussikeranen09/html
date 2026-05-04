@@ -1,0 +1,26 @@
+body {
+
+  background-color: darkgreen ;
+    font-family: "impact", sans-serif;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  color: white;
+  font-size: 20px;
+  row-gap: 20px;
+}
+.classtesti {
+  color: white;
+  padding: 10px;
+  background-color: black;
+}
+.container {
+ width:  100%;
+ background-color: white;
+ align-items: center;
+ padding: 20px;
+}
