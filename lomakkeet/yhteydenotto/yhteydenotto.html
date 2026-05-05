@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Yhteydenotto</title>
+</head>
+<body>
+<table border="1" width="100%"cellpadding="5">
+    <tr>
+        <td align="center">Etunimi</td>
+        <td><input type="text" name="etunimi"></td>
+    </tr>
+    <tr>
+        <td align="center">Sukunimi</td>
+        <td><input type="text" name="sukunimi"></td>
+    </tr>
+    <tr>
+        <td align="center">Sukupuoli</td>
+        <td>
+            <input type="radio" name="sukupuoli" value="mies"> Mies <br>
+            <input type="radio" name="sukupuoli" value="nainen"> Nainen
+        </td>
+    </tr>
+        <tr>
+        <td align="center">Asian Laatu</td>
+        <td><select name="Laatu" id="Laatu">
+            <option value="palautetta">Palautetta</option>
+            <option value="kysymys">Kysymys</option>
+            <option value="idea">Idea</option>
+            <option value="muu">Muu</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Tarkempi määrittely</td>
+        <td><textarea name="maarittely" rows="4" cols="50"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="submit" value="Submit">
+            <input type="reset" value="Reset"></td>
+    </tr>
+</body>
+</html>
