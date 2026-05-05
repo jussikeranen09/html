@@ -1,0 +1,25 @@
+body {
+    background-color : black;
+    font-family: "sans-serif";
+    
+}
+h1 {
+    color: white;
+   margin: auto;
+}
+p {
+    color: white;
+    margin: auto;;
+}
+.lista {
+    color: white;
+    margin: auto;
+}
+li {
+    color: white;
+    margin: auto;
+}
+img {
+    
+    display: block;
+}
