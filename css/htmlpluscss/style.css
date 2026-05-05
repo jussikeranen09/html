@@ -1,6 +1,6 @@
 body {
 
-  background-color: darkgreen ;
+  background-color: darkblue ;
     font-family: "impact", sans-serif;
 }
 h1 {
@@ -23,4 +23,21 @@ p {
  background-color: white;
  align-items: center;
  padding: 20px;
+}
+.menu {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+ 
+
+.menu li {
+
+  display: inline-block;
+
+  margin-right: 15px;
+
 }
