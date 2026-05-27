@@ -25,26 +25,13 @@ div img {
     align-items: center;
     width: 50%;
 }
-<<<<<<< HEAD
-.kartta {
-    display: block;
-    align-items: center;
-    width: 50%;
-
-}
-=======
-
->>>>>>> be49c588027057dc2bc2d8f8d8b2c057d56d2a99
 table { 
     margin-left: auto; margin-right: auto; border-collapse:collapse; background:transparent;
 } 
 
-<<<<<<< HEAD
-=======
 .kartta {
 text-align: center;
 }
->>>>>>> be49c588027057dc2bc2d8f8d8b2c057d56d2a99
 
 td { 
     margin-left: auto ; padding:10px 12px; border-bottom:1px solid black;
