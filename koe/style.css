@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: #97abc4;
+    line-height: 1.45;
+}
+
+h1,h2,h3 { 
+    margin:0 0 12px 0; color:black; text-align: center;
+}
+
+p { 
+    text-align: center; color:var(black);
+    align-content: center;
+}
+
+a {
+    display: block;
+  text-align: center;
+}
+
+div img {
+    display: block;
+    align-items: center;
+    width: 50%;
+}
+.kartta {
+    display: block;
+    align-items: center;
+    width: 50%;
+
+}
+table { 
+    margin-left: auto; margin-right: auto; border-collapse:collapse; background:transparent;
+} 
+
+
+td { 
+    margin-left: auto ; padding:10px 12px; border-bottom:1px solid black;
+ }
+
+footer { 
+    padding:28px 0; color:black; text-align:center;
+ }
