@@ -1,0 +1,34 @@
+<section></section>
+<script>
+let bandInfo;
+
+// Don't edit the code above here!
+
+const band = {
+  name: "Glass Beach",
+  nationality: "American",
+  genre: "indie rock",
+  members: 4,
+  formed: 2016,
+  split: 2026,
+  albums: [
+    {
+      name: "The First Glass Beach Album",
+      released: 2019,
+    },
+    {
+      name: "plastic death",
+      released: 2023,
+    }
+  ],
+};
+
+bandInfo = `The ${band.nationality} ${band.genre} band ${band.name} were active between ${band.formed} and ${band.split}. Their first album, ${band.albums[0].name}, was released in ${band.albums[0].released}.`;
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+let para1 = document.createElement("p");
+para1.textContent = bandInfo;
+section.appendChild(para1);
+</script>
